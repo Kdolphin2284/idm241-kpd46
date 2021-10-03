@@ -1,33 +1,50 @@
 body {
     height: 100vh;
     margin: 0;
+    background: #393939;
+}
+h1 {
+    font-size: 60px;
+    font-family: Arial;
+    color: #fff;
+}
+h1 span {
+    font-weight: 900;
 }
 h2 {
     font-size: 40px;
     font-family: Arial;
     display: inline-block;
     margin: 0;
+    color: #fff;
+}
+h2 span {
+    font-weight: 900;
 }
 h3 {
     font-size: 24px;
     text-align: left;
     font-family: Helvetica;
     margin: 0;
+    color: #fff;
 }
 h4 {
     font-size: 20px;
     font-family: Arial;
     margin: 0;
+    color: #fff;
 }
 p {
     font-family: Helvetica;
     font-size: 16px;
     margin: 0;
+    color: #fff;
 }
 li {
     font-family: Helvetica;
     font-size: 16px;
     line-height: 22px;
+    color: #fff;
 }
 .col-1-1 {
     width: 100%;
@@ -128,4 +145,15 @@ main {
 }
 #infoBlock .col-1-4 h3, #infoBlock .col-1-4 ul li {
     margin: 0 15px;
+}
+#information h2 span, #howItWorks h2 span {
+    color: #f96060;
+}
+#intro .col-1-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#intro h1 span {
+    color: #f96060;
 }
