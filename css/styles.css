@@ -7,6 +7,7 @@ h1 {
     font-size: 60px;
     font-family: Arial;
     color: #fff;
+    margin: 0;
 }
 h1 span {
     font-weight: 900;
@@ -60,6 +61,7 @@ li {
 }
 img {
     width: inherit;
+    display: block;
 }
 
 /* ///////////////////////////////////// */
@@ -77,9 +79,6 @@ img {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-}
-.image-hover {
-    width: 100%;
 }
 #howItWorks .col-1-1:last-child {
     display: flex;
@@ -118,8 +117,8 @@ main {
     bottom: -6%;
 }
 .image-hover {
-    overflow: clip;
-    height: 188.267px;
+    height: inherit;
+    width: 100%;
 }
 .textHover h4, .textHover p {
     color: #fff;
@@ -156,4 +155,56 @@ main {
 }
 #intro h1 span {
     color: #f96060;
+}
+#howItWorks .col-1-3 {
+    overflow-y: hidden;
+}
+
+@media only screen and (max-width: 1280px) {
+h2 {
+    font-size: 34px;
+}
+h3 {
+    font-size: 20px;
+}
+li {
+    font-size: 15px;
+}
+main {
+    margin: 0 30px;
+}
+h4 {
+    font-size: 18px;
+}
+.textHover p {
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 1169px) {
+h4 {
+    font-size: 15px;
+}
+.textHover p {
+    font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+li {
+    font-size: 14px;
+    line-height: 20px;
+}
+h1 {
+    font-size: 46px;
+}
+h3 {
+    font-size: 16px;
+}
+#howItWorks .col-1-1:last-child {
+    flex-wrap: wrap;
+}
+#howItWorks .col-1-1:last-child .col-1-3 {
+    width: 50%;
+}
 }
