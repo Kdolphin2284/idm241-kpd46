@@ -131,7 +131,8 @@ main {
 }
 #howItWorks .col-1-1:last-child .col-1-3:last-child .image-hover .textHover {
     opacity: 1;
-    bottom: 19%;
+    transform: translateY(-50%);
+    top: 50%;
 }
 #infoBlock ul {
     padding: 0;
@@ -190,7 +191,7 @@ h4 {
 }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
 li {
     font-size: 14px;
     line-height: 20px;
@@ -205,6 +206,45 @@ h3 {
     flex-wrap: wrap;
 }
 #howItWorks .col-1-1:last-child .col-1-3 {
-    width: 50%;
+    width: 47.5%;
+    margin-bottom: 5%;
+  }
 }
+
+@media only screen and (max-width: 767px) {
+
+    main {
+        padding: 50px 0;
+    }
+
+h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 26px;
+  }
+  
+  #infoBlock .col-1-4 {
+    width: 100%;
+  }
+  
+  #infoBlock ul {
+    margin: 10px 0 15px 0;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  #howItWorks .col-1-1:last-child .col-1-3 {
+    margin: 0;
+    width: 100%;
+  }
+  
+  #howItWorks .col-1-1:last-child .col-1-3:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  
 }
