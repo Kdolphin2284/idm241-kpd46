@@ -77,14 +77,14 @@ img {
   .textHover {
     transition: .5s all;
   }
-  #howItWorks .col-1-1 .col-1-3 .image-hover .textHover {
+  #howItWorks .col-1-1 .col-1-3 .textHover {
     opacity: 0;
     top: 75%;
   }
   #howItWorks .col-1-1 .col-1-3:hover {
     cursor: pointer;
   }
-  #howItWorks .col-1-1 .col-1-3:hover .image-hover .textHover {
+  #howItWorks .col-1-1 .col-1-3:hover .textHover {
     top: 50%;
     opacity: 1;
     transform: translateY(-50%);
@@ -158,10 +158,6 @@ main {
     display: flex;
     flex-direction: column;
     padding: 24px;
-}
-.image-hover {
-    height: inherit;
-    width: 100%;
 }
 .textHover h4, .textHover p {
     color: #fff;
