@@ -248,6 +248,7 @@ main {
 #howItWorks .col-1-1:last-child .col-1-2:first-child {
     position: relative;
     overflow: hidden;
+    z-index: 2;
 }
 #galleryInfo h3 {
     font-size: 36px;
@@ -263,20 +264,33 @@ main {
     justify-content: space-between;
 }
 #galleryInfo {
-    top: 76.5%;
+    top: 74.5%;
 }
 #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-    top: 35%;
+    top: 31%;
 }
-#howItWorks .col-1-1:last-child .col-1-2:nth-child(2), #howItWorks .col-1-1:last-child .col-1-2:nth-child(3), #howItWorks .col-1-1:last-child .col-1-2:nth-child(4) {
+/* #howItWorks .col-1-1:last-child .col-1-2:nth-child(2), #howItWorks .col-1-1:last-child .col-1-2:nth-child(3), #howItWorks .col-1-1:last-child .col-1-2:nth-child(4) {
     position: absolute;
     z-index: -1;
     width: 33%;
     padding-bottom: 20%;
     margin: 0;
     opacity: 0;
+} */
+#howItWorks .col-1-1:last-child .col-1-2 {
+    width: 500px;
+    padding-bottom: 300px !important;
+  }
+#howItWorks .col-1-1:last-child .col-1-2:not(:first-child) {
+    position: absolute;
+    top: 50px;
+    opacity: 0;
+    left: 50px;
+    margin: 0;
 }
-
+#howItWorks .col-1-1:last-child {
+    position: relative;
+}
 
 
 
