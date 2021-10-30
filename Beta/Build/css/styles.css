@@ -266,19 +266,14 @@ main {
 #galleryInfo {
     top: 74.5%;
 }
+#galleryButton {
+    transition: all .5s ease;
+}
 #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
     top: 31%;
 }
-/* #howItWorks .col-1-1:last-child .col-1-2:nth-child(2), #howItWorks .col-1-1:last-child .col-1-2:nth-child(3), #howItWorks .col-1-1:last-child .col-1-2:nth-child(4) {
-    position: absolute;
-    z-index: -1;
-    width: 33%;
-    padding-bottom: 20%;
-    margin: 0;
-    opacity: 0;
-} */
 #howItWorks .col-1-1:last-child .col-1-2 {
-    width: 500px;
+    width: 520px;
     padding-bottom: 300px !important;
   }
 #howItWorks .col-1-1:last-child .col-1-2:not(:first-child) {
@@ -291,8 +286,28 @@ main {
 #howItWorks .col-1-1:last-child {
     position: relative;
 }
+#gallery1, #gallery2, #gallery3 {
+    transition: all .5s ease;
+}
 
 
+/* ////////////////////////////////////////// */
+/* ////////// SPECIAL CLASS JS CSS ////////// */
+/* ////////////////////////////////////////// */
+
+.galleryImages {
+  position: relative !important;
+  opacity: 1 !important;
+  margin-top: 5% !important;
+  margin: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+.galleryImages:nth-child(n + 3) {
+  margin-top: 5% !important;
+}
+
+/* ////////////////////////////////////////// */
 
 
 
