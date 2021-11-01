@@ -238,13 +238,43 @@ main {
     cursor: pointer;
     transition: all .5s ease;
 }
-#galleryInfo {
+/* #galleryInfo {
     padding: 20px;
     position: absolute;
     display: block;
     background: rgba(0,0,0,.66);
     transition: all .5s ease;
+} */
+
+/* Andrew's change */
+#galleryInfo {
+    padding: 20px;
+    position: absolute;
+    display: block;
+    background: rgba(0,0,0,0.75);
+    z-index: 2;
+    transition: all .55s ease-in-out;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
+#howItWorks .col-1-1:last-child .col-1-2:first-child::before {
+    position: absolute;
+    display: block;
+    top: -10px;
+    right: -10px;
+    left: -10px;
+    bottom: -10px;
+    content: '';
+    background: url(../media/images/betaBuild1.png);
+    background-position: center;
+    background-size: cover;
+    transition: all .5s ease;
+  }
+  
+  #howItWorks .col-1-1:last-child .col-1-2:first-child:hover::before {
+    filter: blur(6px);
+  }
+  
 #howItWorks .col-1-1:last-child .col-1-2:first-child {
     position: relative;
     overflow: hidden;
