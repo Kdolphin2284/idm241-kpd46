@@ -294,13 +294,13 @@ main {
     justify-content: space-between;
 }
 #galleryInfo {
-    top: 74.5%;
+    top: 235px;
 }
 #galleryButton {
     transition: all .5s ease;
 }
 #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-    top: 31%;
+    top: 115px;
 }
 #howItWorks .col-1-1:last-child .col-1-2 {
     width: 520px;
@@ -368,10 +368,10 @@ h4 {
     padding-bottom: 280px !important;
 }
 #galleryInfo {
-    top: 72.5%;
+    top: 215px;
 }
 #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-    top: 26%;
+    top: 95px;
 }
 }
 
@@ -403,10 +403,10 @@ h4 {
     padding-bottom: 250px !important;
 }
 #galleryInfo {
-    top: 69.5%;
+    top: 185px;
 }
 #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-    top: 21%;
+    top: 75px;
 }
 #galleryInfo p {
     font-size: 18px;
@@ -449,10 +449,10 @@ h3 {
     font-size: 16px;
 }
 #galleryInfo {
-    top: 70.5%;
+    top: 170px;
 }
 #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-    top: 23%;
+    top: 70px;
 }
 #galleryInfo h3 {
     font-size: 32px;
@@ -460,12 +460,15 @@ h3 {
 }
 
 @media only screen and (max-width: 880px) {
+#galleryInfo {
+    top: 160px;
+}
 #howItWorks .col-1-1:last-child .col-1-2 {
     width: 375px;
     padding-bottom: 220px !important;
 }
 #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-    top: 22%;
+    top: 60px;
 }
 #galleryInfo h3 {
     font-size: 30px;
@@ -481,7 +484,7 @@ h3 {
     padding-bottom: 200px !important;
 }
 #galleryInfo {
-    top: 69.5%;
+    top: 146px;
 }
 #galleryInfo p {
     font-size: 14px;
@@ -543,7 +546,7 @@ h1 {
       padding-bottom: 280px !important;
     }
     #galleryInfo {
-      top: 77.5%;
+      top: 222px;
     }
     #galleryInfo p {
       font-size: 16px;
@@ -552,31 +555,34 @@ h1 {
       font-size: 34px;
     }
     #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-      top: 53%;
+      top: 158px;
     }
   
 }
 
 @media only screen and (max-width: 611px) {
 #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-    top: 46%;
+    top: 142px;
 }
 }
 
 @media only screen and (max-width: 498px) {
 #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-    top: 40%;
+    top: 125px;
 }
 }
 
-@media only screen and (max-width: 419px) {
+@media only screen and (max-width: 420px) {
 #galleryInfo p {
     font-size: 14px;
 }
 #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-    top: 42%;
+    top: 135px;
 }
-  
+#galleryInfo button {
+    font-size: 22px;
+}
+
 }
 
 @media only screen and (max-width: 399px) {
@@ -584,8 +590,27 @@ h1 {
         font-size: 14px;
     }
     #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
-        top: 36%;
+        top: 135px;
     }
       
     }
+
+@media only screen and (max-width: 379px) {
+
+.galleryButtonFlex {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+    #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
+      top: 98px;
+    }
+
+
+  .galleryButtonFlex p {
+    margin-bottom: 10px;
+  }
+  
+}
 
