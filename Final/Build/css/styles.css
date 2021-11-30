@@ -319,7 +319,9 @@ main {
 #gallery1, #gallery2, #gallery3 {
     transition: opacity .5s ease;
 }
-
+#howItWorks .col-1-1:last-child .col-1-2 {
+    background-position: center !important;
+}
 
 /* ////////////////////////////////////////// */
 /* ////////// SPECIAL CLASS JS CSS ////////// */
@@ -608,3 +610,171 @@ h1 {
   
 }
 
+
+
+/* /////////////////////////////// */
+/* ////////// MODAL CSS ////////// */
+/* /////////////////////////////// */
+
+main {
+    position: relative;
+}
+.galleryModal {
+    max-width: 62%;
+    padding-bottom: 37%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    right: 50%;
+    position: absolute;
+    transform: translateX(50%);
+    opacity: 0;
+    margin-top: 380px;
+    transition: all .5s ease;
+}
+#modals {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -10;
+}
+#modal1 {
+    background-image: url(../media/images/betaBuild2.png);
+}  
+#modal2 {
+    background-image: url(../media/images/betaBuild3.png);
+}
+#modal3 {
+    background-image: url(../media/images/betaBuild4.png);
+}
+  
+.galleryImages:hover {
+    cursor: pointer;
+}
+.stopScrolling {
+    height: 100%;
+    overflow: hidden;
+}
+.galleryModal img {
+    width: 20px;
+}
+.galleryModal img {
+    padding: 10px;
+    border-radius: 100px;
+    background: rgba(0,0,0,.75);
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px 20px 0 0;
+}
+.galleryModal img:hover {
+      cursor: pointer;
+}
+.galleryModal h3 {
+    position: absolute;
+    color: #fff;
+    padding: 20px;
+    font-size: 40px;
+    line-height: 52px;
+    background: rgba(0,0,0,.75);
+    bottom: 100px;
+    font-weight: 400;
+}
+.galleryModal h3 span {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1500px) {
+.galleryModal {
+    margin-top: 410px;
+}
+}
+@media only screen and (max-width: 1400px) {
+.galleryModal {
+    margin-top: 425px;
+}
+}
+@media only screen and (max-width: 1300px) {
+.galleryModal {
+    margin-top: 450px;
+}
+#modals {
+    width: 110%;
+    left: -5%;
+}
+}
+@media only screen and (max-width: 1200px) {
+.galleryModal {
+    margin-top: 430px;
+}
+.galleryModal h3 {
+    font-size: 32px;
+    line-height: 47px;
+}
+}
+@media only screen and (max-width: 1100px) {
+.galleryModal {
+    margin-top: 395px;
+}
+.galleryModal h3 {
+    padding: 12px 20px;
+}
+}
+@media only screen and (max-width: 1000px) {
+.galleryModal {
+    margin-top: 370px;
+}
+.galleryModal h3 {
+    font-size: 26px;
+    line-height: 40px;
+    bottom: 45px;
+}
+}
+@media only screen and (max-width: 800px) {
+.galleryModal {
+    margin-top: 370px;
+}
+.galleryModal h3 {
+    font-size: 24px;
+    line-height: 38px;
+    bottom: 25px;
+}
+}
+@media only screen and (max-width: 767px) {
+.galleryModal {
+    max-width: 80%;
+    padding-bottom: 48%;
+    margin-top: 30%;
+}
+}
+@media only screen and (max-width: 600px) {
+.galleryModal {
+    max-width: 91%;
+    padding-bottom: 50%;
+    margin-top: 40%;
+}
+}
+@media only screen and (max-width: 500px) {
+.galleryModal {
+    margin-top: 50%;
+}
+.galleryModal h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+}
+@media only screen and (max-width: 400px) {
+.galleryModal {
+    margin-top: 55%;
+}
+.galleryModal h3 {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 15px;
+}
+}
+  
+  
