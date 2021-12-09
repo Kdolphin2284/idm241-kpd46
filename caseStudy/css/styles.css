@@ -288,6 +288,9 @@ section:not(:first-child) {
 #solution {
     padding: 0;
 }
+#solution .col-1-1:last-child .designImages .col-1-4:first-child, #solution .col-1-1:last-child .designImages .col-1-4:nth-child(2) {
+    margin-bottom: 4%;
+}
 
 /* ///// THE RESULT ///// */
 
