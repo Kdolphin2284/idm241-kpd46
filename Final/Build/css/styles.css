@@ -602,8 +602,6 @@ h1 {
     #howItWorks .col-1-1:last-child .col-1-2:first-child:hover #galleryInfo {
       top: 88px;
     }
-
-
   .galleryButtonFlex p {
     margin-bottom: 10px;
   }
@@ -627,10 +625,10 @@ main {
     width: 100%;
     right: 50%;
     position: absolute;
-    transform: translateX(50%);
+    transform: translate(50%, -50%);
     opacity: 0;
-    margin-top: 9%;
     transition: all .5s ease;
+    top: 50%;
 }
 #modals {
     height: 100vh;
@@ -688,45 +686,33 @@ main {
 }
 
 @media only screen and (max-width: 1500px) {
-.galleryModal {
-    margin-top: 9%;
-}
+
 }
 @media only screen and (max-width: 1400px) {
-.galleryModal {
-    margin-top: 9%;
-}
+
 }
 @media only screen and (max-width: 1300px) {
-.galleryModal {
-    margin-top: 9%;
-}
+
 #modals {
     width: 110%;
     left: -5%;
 }
 }
 @media only screen and (max-width: 1200px) {
-.galleryModal {
-    margin-top: 12%;
-}
+
 .galleryModal h3 {
     font-size: 32px;
     line-height: 47px;
 }
 }
 @media only screen and (max-width: 1100px) {
-.galleryModal {
-    margin-top: 12%;
-}
+
 .galleryModal h3 {
     padding: 12px 20px;
 }
 }
 @media only screen and (max-width: 1000px) {
-.galleryModal {
-    margin-top: 14%;
-}
+
 .galleryModal h3 {
     font-size: 26px;
     line-height: 40px;
@@ -734,9 +720,7 @@ main {
 }
 }
 @media only screen and (max-width: 800px) {
-.galleryModal {
-    margin-top: 20%;
-}
+
 .galleryModal h3 {
     font-size: 24px;
     line-height: 38px;
@@ -747,29 +731,23 @@ main {
 .galleryModal {
     max-width: 80%;
     padding-bottom: 48%;
-    margin-top: 30%;
 }
 }
 @media only screen and (max-width: 600px) {
 .galleryModal {
     max-width: 91%;
     padding-bottom: 50%;
-    margin-top: 40%;
 }
 }
 @media only screen and (max-width: 500px) {
-.galleryModal {
-    margin-top: 50%;
-}
+
 .galleryModal h3 {
     font-size: 20px;
     line-height: 30px;
 }
 }
 @media only screen and (max-width: 400px) {
-.galleryModal {
-    margin-top: 55%;
-}
+
 .galleryModal h3 {
     font-size: 16px;
     line-height: 26px;
